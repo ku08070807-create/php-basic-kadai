@@ -19,20 +19,10 @@
                 rsort($array);
             }
 
-        // ここにコードを書いていく
-        $array = array(4, 10, 15, 18, 23);
-        asort($array);
         foreach($array as $value) {
             echo $value . " ";
-        }   
-        echo "<br>";
-
-        $array = array(23, 18, 15, 10, 4);
-        $sorted_array = sort_2way($array, TRUE);
-        foreach($sorted_array as $value) {
-            echo $value . " ";
         }
-        ?>
+
     </p>
 
 
