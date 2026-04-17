@@ -1,4 +1,3 @@
 <?php
-prices = ['onion' =>200];
-weights = ['onion' => 160];
->?php
+$array_onion = ('price' => 200, 'weight' => 160);
+?>
