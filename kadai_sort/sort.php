@@ -23,10 +23,17 @@
             echo $value . " ";
         }
 
-   sort_2way($array,$order) {
+   function sort_2way($array,$order) {
             $sorted_array = $array;
             sort($sorted_array);
             return $sorted_array;
+        }
+
+
+if ($order == "asc") {
+            sort($sorted_array);
+        } else if ($order == "desc") {
+            rsort($sorted_array);
         }
         ?>
       
