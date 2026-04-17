@@ -22,10 +22,14 @@
         foreach($array as $value) {
             echo $value . " ";
         }
+        }
+$nums = [ 4,10,15,18, 23,];
+sort_2way($nums, TRUE);
 
-    </p>
+$nums   = [ 4,10,15,18, 23,];
+sort_2way($nums, FALSE);
 
-
+</p>
 
 </body>
 
