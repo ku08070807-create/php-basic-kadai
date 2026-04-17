@@ -12,14 +12,18 @@
         // ここにコードを書いていく
         $array = array(4, 10, 15, 18, 23);
         asort($array);
-        print_r($array);
+        foreach($array as $value) {
+            echo $value . " ";
+        }   
         echo "<br>";
 
         $array = array(23, 18, 15, 10, 4);
-        $sorted_array = function_2way_sort($array);
-        print_r($sorted_array);
+        $sorted_array = sort_2way($array, "asc");
+        foreach($sorted_array as $value) {
+            echo $value . " ";
+        }
 
-   function sort_2way($array) {
+   sort_2way($array,$order) {
             $sorted_array = $array;
             sort($sorted_array);
             return $sorted_array;
